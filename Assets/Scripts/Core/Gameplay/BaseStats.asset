@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cfbf8168d2ea4f48b88379a80c1e255, type: 3}
+  m_Name: BaseStats
+  m_EditorClassIdentifier: 
+  bouncyMat: {fileID: 13400000, guid: f94be6bf9486e874d9fb34b219d50f3a, type: 2}
+  projectilePrefab: {fileID: 5697364180078717995, guid: a85e4caeec5e65d4e820a3b58acf98c8, type: 3}
+  bazookaProjectilePrefab: {fileID: 5697364180078717995, guid: 43dac0a2d00d145409619f182fb1e0d6, type: 3}
+  explosionPrefab: {fileID: 743038173831339694, guid: 01ebef39cb271814d893da3f97bd8394, type: 3}
+  laserProjectilePrefab: {fileID: 5697364180078717995, guid: 2c43ef176f254bf4aaec2fe6f8b1aada, type: 3}
+  shotgun: 0
+  bazooka: 0
+  bounceBullets: 0
+  laser: 0
+  damage: 10
+  bulletSpeed: 5
+  timeBetweenBullets: 0.1
+  maxNumberOfCollisionForBouncyBullets: 4
+  bazookaExplosionRadius: 5
